@@ -1,26 +1,26 @@
-# DeepLearningShogi
+# DeepLearningShogi (readme in English)
 
-将棋でディープラーニングを実験するためのプロジェクトです。
+It is a project for experimenting deep learning with Shogi.
 
-基本的にAlphaGoの手法を参考に実装していく予定です。
+Basically we plan to implement it with reference to AlphaGo's method.
 
-検討経緯、実験結果などは、随時こちらのブログに掲載していきます。
+We will publish the background of the study, the results of the experiment etc on this blog from time to time.
 
 http://tadaoyamaoka.hatenablog.com/
 
-## 使用ライブラリ
+##  Used libraries
 * [Chainer](http://chainer.org/) 2.0.0
 * [elmo_for_learn](https://github.com/mk-takizawa/elmo_for_learn)
 
-※モンテカルロ木探索の実装は囲碁プログラムの[Ray+Rn](https://github.com/zakki/Ray)の実装を参考にしています。
+* Implementation of Monte Carlo tree search is based on the implementation of [Ray+Rn](https://github.com/zakki/Ray)of Go program.
 
-## ビルド環境
+## Build environment
 * Windows 10 64bit
 * Python 3.5 ([Anaconda](https://www.continuum.io/downloads) 4.2.0 (64-bit))
 * Visual Studio 2015
 * [Boost](http://www.boost.org/) 1.64
 
-## ライセンス
-ライセンスはMITライセンスとします。
+## License
+License is MIT license.
 
-cppshogiは[elmo_for_learn](https://github.com/mk-takizawa/elmo_for_learn)のソースを流用しているため、GPLライセンスとします。
+Since cppshogi diverged from [elmo_for_learn](https://github.com/mk-takizawa/elmo_for_learn) source, it is GPL license.
